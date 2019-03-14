@@ -19,31 +19,38 @@
 <style type="text/css">
 .topcorner {
 	position: absolute;
-	top: 10px;
-	right: 20px;
+	top: 7%;
+	right: 15%;
 }
 
-.nav {
+.topcorner2 {
 	position: absolute;
-	top: 240px;
-	background: #4885ed;
-	width: 100%
+	top: 7%;
+	right: 8%;
 }
+/* .nav { */
+/* 	position: absolute; */
+/* 	top: 240px; */
+/* 	background: #4885ed; */
+/* /* 	width: 100% */ */
+/* } */
 </style>
 
 </head>
 <body>
+<div class="container">
 
 	<div class="jumbotron">
-		<h1 class="display-4">Welcome to Our Library!</h1>
+		<h1 class="display-4">Welcome to ARD Organization Library!</h1>
 		<hr class="my-4">
-		<p class="lead">
-			<a class="topcorner" href="login.html" id="login">Login</a>
-		</p>
-	</div>
-
-
-	<nav class="navbar navbar-expand-lg navbar-light nav">
+		<div class="col-15 d-flex justify-content-end align-items-center topcorner">
+            <a role="button" class="btn btn-sm btn-outline-secondary" href="Login.jsp" id="login">Login</a>
+          </div>
+          <div class="col-15 d-flex justify-content-end align-items-center topcorner2">
+            <a role="button" class="btn btn-sm btn-outline-secondary" href="Login.jsp" id="login">Sign Up</a>
+          </div>
+	
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#4885ed;">
 		<a class="navbar-brand" href="#"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
@@ -127,6 +134,7 @@
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous" type="text/javascript"></script>
-
+</div>
+</div>
 </body>
 </html>
