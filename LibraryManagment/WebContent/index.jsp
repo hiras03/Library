@@ -19,14 +19,14 @@
 <style type="text/css">
 .topcorner {
 	position: absolute;
-	top: 7%;
-	right: 15%;
+	top: 4%;
+	right: 18%;
 }
 
 .topcorner2 {
 	position: absolute;
-	top: 7%;
-	right: 8%;
+	top: 4%;
+	right: 12%;
 }
 /* .nav { */
 /* 	position: absolute; */
@@ -47,7 +47,7 @@
             <a role="button" class="btn btn-sm btn-outline-secondary" href="Login.jsp" id="login">Login</a>
           </div>
           <div class="col-15 d-flex justify-content-end align-items-center topcorner2">
-            <a role="button" class="btn btn-sm btn-outline-secondary" href="Login.jsp" id="login">Sign Up</a>
+            <a role="button" class="btn btn-sm btn-outline-secondary" href="Register.jsp" id="login">Sign Up</a>
           </div>
 	
 	<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#4885ed;">

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login</title>
+<title>Register</title>
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport"
@@ -20,7 +20,7 @@
 <body>
 <div class="container">
 	<div class="jumbotron">
-		<h1 class="display-4">ARD Organization Login!</h1>
+		<h1 class="display-4">Let's Register to ARD</h1>
 		<hr class="my-4">
 		<p class="lead"></p>
 	
@@ -30,13 +30,18 @@
 
 <form class="form-group" style="width:40%;position:center;">
   <div >
-    <label for="Email">Email address</label>
+    <label for="Email">Enter Email address</label>
     <input type="Email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="Email">Re-Enter Email address</label>
+    <input type="Email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <label for="phone">Enter Mobile Number </label>
+    <input type="text" class="form-control" id="mobile" placeholder="Mobile Number">
     <label for="Password">Password</label>
     <input type="password" class="form-control" id="Password" placeholder="Password">
-  	<a class="dropdown-item" href="#" style="color:blue;">New around here? Sign up</a>
-  	<a class="dropdown-item" href="#" style="color:blue;">Forgot password?</a>
+    <label for="Password">Re-Enter Password</label>
+    <input type="password" class="form-control" id="Password" placeholder="Password">
+    <br>
   	<button type="submit" class="btn btn-primary">Submit</button>
   	<a class="btn btn-danger" role="button" href="index.jsp">cancel</a>
   	</div>
