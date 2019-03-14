@@ -38,8 +38,7 @@
 		<h1 class="display-4">Welcome to Our Library!</h1>
 		<hr class="my-4">
 		<p class="lead">
-			<a class="topcorner" href="#">Login</a>
-			<!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
+			<a class="topcorner" href="login.html" id="login">Login</a>
 		</p>
 	</div>
 
